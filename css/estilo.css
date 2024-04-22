@@ -475,7 +475,7 @@ hr {
     width: 100%;
     background-color: #454587;
 }
-.experiencia__section__title{
+.experiencia__section__title {
     color: #9290C3;
 }
 .formcontacto {
@@ -575,8 +575,8 @@ hr {
 .formcontacto__img {
     width: 60px;
 }
-.formcontacto__title{
- color: #9290C3;
+.formcontacto__title {
+    color: #9290C3;
 }
 .experiencia {
     width: 100%;
@@ -603,7 +603,7 @@ hr {
     background-color: #2c8ea2;
 
 }
-.experiencia__info-container{
+.experiencia__info-container {
     width: 200px;
     height: 240px;
     display: flex;
@@ -611,14 +611,14 @@ hr {
     justify-content: space-evenly;
     align-items: center;
 }
-.experiencia__img{
+.experiencia__img {
     height: 120px;
     transition: 0.2s;
 }
-.experiencia__img:hover{
+.experiencia__img:hover {
     transform: scale(2.5);
     transition: 0.2s;
 }
-.experiencia__title{
+.experiencia__title {
     text-align: center;
 }

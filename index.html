@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./css/estilo.css">
     <script src="https://kit.fontawesome.com/e190075d06.js" crossorigin="anonymous"></script>
     <script defer src="js/menu.js"></script>
+    <script defer src="./js/validacion.js"></script>
 </head>
 <body>
 
@@ -258,7 +259,7 @@
         </section>
 
         <section class="academic" id="formacion">
-            <h2 class="academic__title">Formación académica</h2>
+            <h2 class="academic__title"><i class="fa-solid fa-graduation-cap"></i> Formación académica</h2>
             <div class="academic__courses">
                 <div class="academic__courses__box">
                     <ul class="academic__courses__list">
@@ -287,116 +288,118 @@
             </div>
         </section>
         <!-- Sección de Experiencia Profesional/Proyectos-->
-        <section class="experience" id="xp">
-            <h2 class="experience__section__title">Experiencia Profesional</h2>
-            <div class="experiencie__box">
+        <section class="experiencia" id="xp">
+            <h2 class="experiencia__section__title"><i class="fa-solid fa-person-digging"></i> Experiencia Profesional</h2>
+            <div class="experiencia__box">
                 <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
-                <img class="experience__img" src="assets\decod_print.png" alt="">
 
-                <div class="experience__info">
-                    <h2 class="experience__title">Encriptador de texto</h2>
-                    <h3 class="experience__text">Challenge Alura Codificador </h3>
-                    <div class="experience__description">
-                        <!-- Pon el enlace del proyecto en Github o GithubPages -->
-                        <span class="experience__repo"><a
-                                href="https://github.com/alura-challenges/challenge-one-encriptador-latam"><button
-                                class="experiencia__botao--repo">Repositório</button></a></span>
-                        <span class="experience__demo"><a href=""><button
-                                class="experience__botao--demo">Ver demo</button></a></span>
-                    </div>
-                </div>
-
-
-                <div class="experiencie__info">
-                    <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
-                    <img class="experience__img" src="assets\forca_print.png" alt="">
-                    <div class="experience__info">
-                        <h2 class="experience__title">Juego creado con HTML y JavaScript</h2>
-                        <h3 class="experience__text">Challenge Oracle </h3>
-                        <div class="experience__description">
-                            <!-- Pon el enlace del proyecto en Github o GithubPages -->
-                            <span class="experience__repo"><a
-                                    href="https://github.com/alura-challenges/challenge-one-juego-ahorcado"><button
-                                    class="experiencia__botao--repo">Repositório</button></a></span>
-                            <span class="experience__demo"><a href=""><button
-                                    class="experience__botao--demo">Ver demo</button></a></span>
-                        </div>
-                    </div>
-                </div>
 
                 <div class="experiencia__info">
                     <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
-                    <img class="experiencia__img" src="assets\secretcode_print.png" alt="">
                     <div class="experiencia__info-container">
-                        <h2 class="experiencia__title">Encriptador de texto</h2>
+                    <img class="experiencia__img" src="./img/mentalista.png" alt="">
+                        <h3 class="experiencia__title">Juego Mentalista con HTML y JavaScript</h3>
                         <h3 class="experiencia__text">Challenge Oracle </h3>
                         <div class="experiencia__description">
                             <!-- Pon el enlace del proyecto en Github o GithubPages -->
                             <span class="experiencia__repo"><a
-                                    href="https://github.com/alura-challenges/challenge-one-encriptador-latam"><button
+                                    href="https://github.com/btocarmona2021/mentalista" target="_blank"><button
                                     class="experiencia__botao--repo">Repositório</button></a></span>
-                            <span class="experiencia__demo"><a href=""><button
+                            <span class="experiencia__demo"><a href="https://btocarmona2021.github.io/mentalista/" target="_blank"><button
                                     class="experiencia__botao--demo">Ver demo</button></a></span>
                         </div>
                     </div>
                 </div>
-
                 <div class="experiencia__info">
-                    <img class="experiencia__img" src="assets\forca2_print.png" alt="">
+                    <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
                     <div class="experiencia__info-container">
-                        <h2 class="experiencia__title">Juego creado con HTML, CSS y JavaScript</h2>
+                    <img class="experiencia__img" src="./img/conversor.png" alt="Conversor de unidades">
+                        <h3 class="experiencia__title">Conversor unidades creado con HTML y JavaScript</h3>
                         <h3 class="experiencia__text">Challenge Oracle </h3>
-                        <div class="experiencia__descripcion">
+                        <div class="experiencia__description">
                             <!-- Pon el enlace del proyecto en Github o GithubPages -->
-                            <span class="experience__repo"><a
-                                    href="https://github.com/alura-challenges/challenge-one-juego-ahorcado"><button
-                                    class="experiencia__boton--repo">Repositório</button></a></span>
-                            <span class="experiencia__demo"><a href=""><button
-                                    class="experiencia__boton--demo">Ver demo</button></a></span>
+                            <span class="experiencia__repo"><a
+                                    href="https://github.com/btocarmona2021/conversor" target="_blank"><button
+                                    class="experiencia__botao--repo">Repositório</button></a></span>
+                            <span class="experiencia__demo"><a href="https://btocarmona2021.github.io/conversor/" target="_blank"><button
+                                    class="experiencia__botao--demo">Ver demo</button></a></span>
                         </div>
                     </div>
                 </div>
-
-                <!-- Sección de Contacto -->
-                <section class="formcontacto" id="contacto">
-                    <h2 class="formcontacto__title">Contacto</h2>
-                    <h3 class="formcontacto__subtext">¿Quieres contactarme?</h3>
-                    <h3 class="formcontacto__subtext">Complete el siguiente formulario y me pondré en contacto
-                        con usted lo antes posible. </h3>
-                    <div class="formcontacto--esquerda">
-                        <img class="formcontacto__img" src="./img/write.png" alt="Escribenos">
-                    </div>
-                    <div class="formcontacto__contacto">
-                        <div class="formcontato__text">
-                            <form class="formcontacto__form" name="form">
-                                <label for="nombre"></label>
-                                <input id="nombre" class="formcontato__input" type="text" name="nombre" placeholder="Nombre">
-                                <label for="email"></label>
-                                <input id="email" class="formcontato__input" type="email" name="email" placeholder="E-mail">
-                                <label for="asunto"></label>
-                                <input id="asunto" type="text" name="asunto" placeholder="Assunto">
-                                <label for="mensagem"></label>
-                                <textarea class="formcontacto__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje"></textarea>
-                                <button type="submit" class="formcontacto__boton">Enviar mensaje</button>
-                            </form>
-                        </div>
-                        <div class="ubicacion">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.2447072264304!2d-64.95474168892005!3d-40.73463870643089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95fa37279ef07bc1%3A0x46ac59d53faf0f48!2sIslas%20Malvinas%201517%2C%20San%20Antonio%20Oeste%2C%20R%C3%ADo%20Negro!5e0!3m2!1ses!2sar!4v1713726645964!5m2!1ses!2sar"
-                                    width=460" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+               <!-- <div class="experiencia__info">
+                    &lt;!&ndash; Pon el logotipo/captura de pantalla de tu proyecto &ndash;&gt;
+                    <img class="experiencia__img" src="assets\forca_print.png" alt="">
+                    <div class="experiencia__info-container">
+                        <h2 class="experiencia__title">Juego creado con HTML y JavaScript</h2>
+                        <h3 class="experiencia__text">Challenge Oracle </h3>
+                        <div class="experiencia__description">
+                            &lt;!&ndash; Pon el enlace del proyecto en Github o GithubPages &ndash;&gt;
+                            <span class="experiencia__repo"><a
+                                    href="https://github.com/alura-challenges/challenge-one-juego-ahorcado"><button
+                                    class="experiencia__botao&#45;&#45;repo">Repositório</button></a></span>
+                            <span class="experiencia__demo"><a href=""><button
+                                    class="experiencia__botao&#45;&#45;demo">Ver demo</button></a></span>
                         </div>
                     </div>
-                </section>
-
-                <!-- Sección de Footer -->
-                <section class="footer">
-                    <div class="footer__rodape">
-                        <p>Desarrollado por Alberto Carmona</p>
-                        <p>2024</p>
+                </div>
+                <div class="experiencia__info">
+                    &lt;!&ndash; Pon el logotipo/captura de pantalla de tu proyecto &ndash;&gt;
+                    <img class="experiencia__img" src="assets\forca_print.png" alt="">
+                    <div class="experiencia__info-container">
+                        <h2 class="experiencia__title">Juego creado con HTML y JavaScript</h2>
+                        <h3 class="experiencia__text">Challenge Oracle </h3>
+                        <div class="experiencia__description">
+                            &lt;!&ndash; Pon el enlace del proyecto en Github o GithubPages &ndash;&gt;
+                            <span class="experiencia__repo"><a
+                                    href="https://github.com/alura-challenges/challenge-one-juego-ahorcado"><button
+                                    class="experiencia__botao&#45;&#45;repo">Repositório</button></a></span>
+                            <span class="experiencia__demo"><a href=""><button
+                                    class="experiencia__botao&#45;&#45;demo">Ver demo</button></a></span>
+                        </div>
                     </div>
-                </section>
+                </div>-->
+
+            </div>
+        </section>
+        <!-- Sección de Contacto -->
+        <section class="formcontacto" id="contacto">
+            <h2 class="formcontacto__title"> <i class="fa-solid fa-address-card"></i> Contacto</h2>
+            <h3 class="formcontacto__subtext">¿Quieres contactarme?</h3>
+            <h3 class="formcontacto__subtext">Complete el siguiente formulario y me pondré en contacto
+                con usted lo antes posible. </h3>
+            <div class="formcontacto--esquerda">
+                <img class="formcontacto__img" src="./img/write.png" alt="Escribenos">
+            </div>
+            <div class="formcontacto__contacto">
+                <div class="formcontato__text">
+                    <form class="formcontacto__form" name="form">
+                        <label for="nombre"></label>
+                        <input id="nombre" class="formcontato__input" type="text" name="nombre" placeholder="Nombre">
+                        <label for="email"></label>
+                        <input id="email" class="formcontato__input" type="email" name="email" placeholder="E-mail">
+                        <label for="asunto"></label>
+                        <input id="asunto" type="text" name="asunto" placeholder="Assunto">
+                        <label for="mensagem"></label>
+                        <textarea class="formcontacto__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje"></textarea>
+                        <button type="submit" class="formcontacto__boton">Enviar mensaje</button>
+                    </form>
+                </div>
+                <div class="ubicacion">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.2447072264304!2d-64.95474168892005!3d-40.73463870643089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95fa37279ef07bc1%3A0x46ac59d53faf0f48!2sIslas%20Malvinas%201517%2C%20San%20Antonio%20Oeste%2C%20R%C3%ADo%20Negro!5e0!3m2!1ses!2sar!4v1713726645964!5m2!1ses!2sar"
+                            width=460" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Footer -->
+        <section class="footer">
+            <div class="footer__rodape">
+                <p>Desarrollado por Alberto Carmona</p>
+                <p>2024</p>
             </div>
         </section>
     </main>
+
 </div>
 </body>
 </html>

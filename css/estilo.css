@@ -93,15 +93,16 @@ p {
     border-radius: 50%;
     object-fit: cover;
     box-shadow: 0 0 6px 2px #5353A2;
- /*   transition: 0.5s;
-    animation-name: perfil;
-    animation-direction: alternate;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-play-state: running;*/
+    /*   transition: 0.5s;
+       animation-name: perfil;
+       animation-direction: alternate;
+       animation-duration: 0.5s;
+       animation-timing-function: ease-in-out;
+       animation-iteration-count: infinite;
+       animation-play-state: running;*/
 
 }
+
 /*
 @keyframes perfil {
     0% {
@@ -458,12 +459,21 @@ hr {
 
 .academic {
     width: 100%;
-    background-color: greenyellow;
+    background-color: #9290C3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.academic__courses {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
 
 .experience {
     width: 100%;
-    background-color: #01d596;
+    background-color: #454587;
 }
 
 .formcontacto {
@@ -560,6 +570,7 @@ hr {
     display: flex;
     gap: 0 40px;
 }
-.formcontacto__img{
+
+.formcontacto__img {
     width: 60px;
 }

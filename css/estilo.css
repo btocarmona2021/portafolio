@@ -93,16 +93,16 @@ p {
     border-radius: 50%;
     object-fit: cover;
     box-shadow: 0 0 6px 2px #5353A2;
-    transition: 0.5s;
+ /*   transition: 0.5s;
     animation-name: perfil;
     animation-direction: alternate;
     animation-duration: 0.5s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
-    animation-play-state: running;
+    animation-play-state: running;*/
 
 }
-
+/*
 @keyframes perfil {
     0% {
         transform: scale(1);
@@ -113,7 +113,7 @@ p {
         border-color: white;
         box-shadow: 0 0 12px 4px #37376C;
     }
-}
+}*/
 
 .icono {
     width: 24px;

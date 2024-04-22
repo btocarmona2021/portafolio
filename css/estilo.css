@@ -322,6 +322,10 @@ hr {
     flex-direction: column;
     align-items: center;
     background-color: #1B1B36;
+    mask: linear-gradient(180deg, transparent, #070F2B 24%);
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom: 3px solid #9290C3;
 }
 
 .skills h2 {

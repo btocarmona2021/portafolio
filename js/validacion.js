@@ -7,5 +7,6 @@ const botonSubmit = document.querySelector('.formcontacto__boton');
 botonSubmit.addEventListener('click',()=>{
     if (nombre.value =='' || email.value == '' || asunto.value == '' || texto.value == ''){
         alert("Hay campos sin completar , Intentalo nuevamente !")
+
     }
 })

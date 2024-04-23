@@ -129,7 +129,7 @@ p {
 }
 
 .central {
-    min-width: 1040px;
+    width: 1440px;
     height: 760px;
     border-radius: 10px;
     background-color: #37376C;
@@ -319,6 +319,7 @@ hr {
 }
 
 .skills {
+    width: 98%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -463,6 +464,7 @@ hr {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 20px;
 }
 
 .academic__courses {
@@ -482,6 +484,7 @@ hr {
 
 .formcontacto {
     width: 100%;
+    height: auto;
     background: linear-gradient(#9290C3, #1B1B36);
     display: flex;
     flex-direction: column;
@@ -578,13 +581,9 @@ hr {
     width: 60px;
 }
 
-.formcontacto__title {
-    color: #9290C3;
-}
-
 .experiencia {
     width: 100%;
-    height: 400px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -592,6 +591,7 @@ hr {
 
 .experiencia__box {
     width: 96%;
+    height: 400px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -638,10 +638,25 @@ hr {
     justify-content: center;
     padding: 15px;
     background-color: #1B1B36;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 3px 2px #1B1B36;
+    opacity: 0.7;
+    transition: 0.2s;
 }
-
+.academic__courses__box:hover{
+    transition: 0.2s;
+    animation-name: animaformacion;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+@keyframes animaformacion {
+    0%{}
+    100%{
+        transform: rotate(5deg) scale(1.06);
+        opacity: 1;
+    }
+}
 .academic__courses__list {
     width: 70%;
     display: flex;
@@ -652,4 +667,49 @@ hr {
 .academic__courses__item__img {
     width: 128px;
     height: 128px;
+}
+
+@media (max-width:768px){
+    .central{
+        width: 720px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo{
+        display: none;
+    }
+    .skills__item img{
+        width: 50px;
+    }
+    .galeria{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .item__encabezado{
+        justify-content: center;
+    }
+    .presentacion .imagen__flecha, .contactame{
+        display: none;
+    }
+    .presentacion{
+        width: 700px;
+    }
+    .sobremi{
+        width: 600px;
+    }
+    .academic__courses{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px 0;
+        padding-bottom: 20px;
+    }
+    .formcontacto__contacto{
+        flex-direction: column;
+        gap: 20px 0;
+    }
+
+    .academic__courses{
+        padding-bottom: 20px;
+    }
 }

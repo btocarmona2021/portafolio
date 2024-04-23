@@ -602,7 +602,7 @@ hr {
 
 .experiencia__info {
     width: 200px;
-    height: 380px;
+    height: 400px;
     padding: 10px;
     background-color: #2c8ea2;
 
@@ -630,7 +630,32 @@ hr {
 .experiencia__title {
     text-align: center;
 }
-
+.experiencia__botao--repo, .experiencia__botao--demo{
+    background-color: #9290C3;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin: 2px 0;
+    border-radius: 5px;
+    border: none;
+}
+.experiencia__botao--repo:hover, .experiencia__botao--demo:hover{
+    background-color: #535C91;
+    border: 2px solid #9290C3;
+    color: #9290C3;
+    font-size: 0.9rem;
+}
+.experiencia__botao--demo img{
+    width: 48px;
+    height: 48px;
+    padding: 0 30px;
+}
+.experiencia__botao--repo img{
+    width: 48px;
+    height: 48px;
+    padding: 0 30px;
+}
 .academic__courses__box {
     width: 260px;
     display: flex;

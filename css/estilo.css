@@ -14,15 +14,29 @@ p {
 }
 
 .contenedor {
+    margin: 0 auto;
     display: flex;
     align-items: center;
-    width: 1080px;
-    height: 800px;
+    max-width: 1280px;
+    height: 780px;
     background-color: #07070F;
     gap: 10px;
     padding: 10px;
 }
-
+.central{
+    width: 100%;
+    height: 760px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: #37376C;
+    padding: 15px;
+}
+.central__nav{
+display: flex;
+}
 .contenedor__aside {
     position: fixed;
     left: -300px;
@@ -103,19 +117,6 @@ p {
 
 }
 
-/*
-@keyframes perfil {
-    0% {
-        transform: scale(1);
-    }
-
-    100% {
-        transform: scale(1.1);
-        border-color: white;
-        box-shadow: 0 0 12px 4px #37376C;
-    }
-}*/
-
 .icono {
     width: 24px;
     height: 24px;
@@ -128,29 +129,23 @@ p {
     transition: 0.1s;
 }
 
-.central {
-    width: 1440px;
-    height: 760px;
-    border-radius: 10px;
-    background-color: #37376C;
-    padding: 15px;
+.logo {
+    display: flex;
+    gap: 0 30px;
+    justify-content: space-between;
+    align-items: center;
     transition: 0.3s;
 }
-
 .central.left {
     position: fixed;
     transform: translate(290px);
-    width: 600px;
+    max-width: 600px;
     transition: 0.3s;
-}
-
-.central__nav {
-    max-width: 960px;
 }
 
 .presentacion {
     transition: 0.3s ease-out;
-    width: 900px;
+    max-width: 900px;
 }
 
 .bottom {
@@ -188,7 +183,6 @@ hr {
 .size {
     fill: wheat; /* Cambia este color al que desees */
 }
-
 
 
 .menu__items {
@@ -242,7 +236,7 @@ hr {
 }
 
 .logo__img img {
-    width: 200px;
+    max-width: 200px;
     height: 98px;
     object-fit: cover;
     border-radius: 10px;
@@ -253,13 +247,7 @@ hr {
     color: #cccccc;
 }
 
-.logo {
-    display: flex;
-    gap: 0 30px;
-    justify-content: space-between;
-    align-items: center;
-    transition: 0.3s;
-}
+
 
 .logo.column {
     flex-direction: column;
@@ -303,7 +291,7 @@ hr {
     margin: 20px auto;
     padding: 0 15px;
     border-radius: 50px 0 50px 0;
-    width: 800px;
+    max-width: 800px;
     height: 200px;
     color: white;
     background-color: #9290C3;
@@ -388,8 +376,8 @@ hr {
 }
 
 .galeria img {
-    width: 150px;
-    height: 120px;
+    max-width: 150px;
+    max-height: 120px;
     border-radius: 6px;
     border: 2px solid #535C91;
 
@@ -496,7 +484,7 @@ hr {
 
 .ubicacion {
     padding: 40px;
-    width: 500px;
+    max-width: 500px;
     text-align: center;
     background-color: #1B1B36;
     border-radius: 8px;
@@ -531,7 +519,7 @@ hr {
 
 .formcontacto__form {
     margin: 0 auto;
-    width: 500px;
+    max-width: 500px;
     background-color: #1B1B36;
     display: flex;
     flex-direction: column;
@@ -542,7 +530,7 @@ hr {
 }
 
 .formcontacto__text {
-    width: 500px;
+    max-width: 500px;
     display: flex;
     flex-direction: column;
 }
@@ -558,7 +546,7 @@ hr {
 
 
 .footer {
-    width: 560px;
+    max-width: 560px;
     height: 300px;
     background-color: #1B1B36;
     color: white;
@@ -605,7 +593,7 @@ hr {
 }
 
 .experiencia__info {
-    width: 200px;
+    max-width: 200px;
     height: 400px;
     padding: 10px;
     background-color: #2c8ea2;
@@ -613,7 +601,7 @@ hr {
 }
 
 .experiencia__info-container {
-    width: 200px;
+    max-width: 200px;
     height: 240px;
     display: flex;
     flex-direction: column;
@@ -637,7 +625,7 @@ hr {
 
 .experiencia__botao--repo, .experiencia__botao--demo {
     background-color: #9290C3;
-    width: 200px;
+    max-width: 200px;
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -666,7 +654,7 @@ hr {
 }
 
 .academic__courses__box {
-    width: 260px;
+    max-width: 260px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -707,71 +695,18 @@ hr {
     height: 128px;
 }
 
-/*
-@media screen and (max-width: 720px) {
-    .logo {
-        display: none;
-    }
-
-    .presentacion .imagen__flecha, .contactame {
-        display: none;
-    }
-
-    .central {
-        width: 720px;
-    }
-
-    .menu__items {
-        padding: 12px;
-    }
-
-    .presentacion {
-        width: 700px;
-    }
-
-    .sobremi {
-        width: 600px;
-    }
-
-    .skills__item {
-        width: 70px;
-    }
-
-    .galeria {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .item__encabezado {
-        justify-content: center;
-    }
-
-    .academic__courses {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-    }
-
-    .formcontacto__contacto{
-    flex-direction: column;
-        gap: 20px 0;
-    }
-}*/
-@media screen and (max-width: 428px ) and (min-width: 320px){
+@media screen and (max-width: 720px ) and (min-width: 500px) {
     .contenedor {
-        width: 320px;
+        max-width: 600px;
         height: 1220px;
     }
-    .central__nav{
-        display: flex;
-        justify-content: center;
-    }
+
     .logo {
         display: none;
     }
 
     .menu {
-        width: 320px;
+        max-width: 600px;
     }
 
     .menu__items {
@@ -785,8 +720,8 @@ hr {
     }
 
     .central {
-        width: 380px;
-        height:1200px;
+        max-width: 600px;
+        height: 1150px;
     }
 
     .menu__items {
@@ -796,7 +731,10 @@ hr {
     .presentacion {
         display: flex;
         flex-direction: column;
-        width: 320px;
+    }
+    .presentacion {
+        max-width:380px;
+
     }
 
     .sobremi {
@@ -847,10 +785,12 @@ hr {
         flex-direction: column;
         gap: 20px;
     }
-.formcontacto__contacto{
-    display: flex;
-    flex-direction: column;
-}
+
+    .formcontacto__contacto {
+        display: flex;
+        flex-direction: column;
+    }
+
     .formcontacto {
         display: flex;
         flex-direction: column;
@@ -858,11 +798,11 @@ hr {
     }
 
     .ubicacion iframe {
-        width: 320px;
+        max-width: 320px;
     }
 
     .footer {
-        width:370px;
+        width: 370px;
     }
 
 }

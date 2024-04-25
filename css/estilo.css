@@ -697,7 +697,7 @@ hr {
 
 @media screen and (max-width: 1080px ) and (min-width: 500px) {
     .contenedor {
-        max-width: 700px;
+        max-width: 1080px;
         height: 1220px;
     }
 
@@ -706,7 +706,7 @@ hr {
     }
 
     .menu {
-        max-width: 700px;
+        max-width: 1080px;
     }
 
     .menu__items {
@@ -720,7 +720,7 @@ hr {
     }
 
     .central {
-        max-width: 700px;
+        max-width: 1080px;
         height: 1150px;
     }
 
@@ -729,7 +729,7 @@ hr {
     }
 
     .presentacion {
-        max-width:700px;
+        max-width:1080px;
         display: flex;
         flex-direction: column;
     }
@@ -773,7 +773,7 @@ hr {
     }
 
     .experiencia__info-container {
-        height: 700px;
+        height: 1080px;
     }
 
     .experiencia__box {
@@ -795,11 +795,11 @@ hr {
     }
 
     .ubicacion iframe {
-        max-width: 700px;
+        max-width: 1080px;
     }
 
     .footer {
-        width: 700px;
+        width: 1080px;
     }
 
 }

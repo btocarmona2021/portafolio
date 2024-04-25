@@ -757,9 +757,9 @@ hr {
         gap: 20px 0;
     }
 }*/
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 400px) {
     .contenedor {
-        width: 410px;
+        width: 400px;
     }
 
     .logo {
@@ -782,7 +782,7 @@ hr {
 
     .central {
         width: 380px;
-        height: 1200px;
+        height:800px;
     }
 
     .menu__items {

@@ -757,9 +757,9 @@ hr {
         gap: 20px 0;
     }
 }*/
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 428px ) and (min-width: 320px){
     .contenedor {
-        width: 320px;
+        width: 380px;
     }
 
     .logo {
@@ -767,7 +767,7 @@ hr {
     }
 
     .menu {
-        width: 320px;
+        width: 380px;
     }
 
     .menu__items {
@@ -781,7 +781,7 @@ hr {
     }
 
     .central {
-        width: 320px;
+        width: 380px;
         height:800px;
     }
 

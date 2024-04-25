@@ -558,7 +558,7 @@ hr {
 
 
 .footer {
-    width: 100%;
+    width: 560px;
     height: 300px;
     background-color: #1B1B36;
     color: white;
@@ -760,8 +760,12 @@ hr {
 @media screen and (max-width: 428px ) and (min-width: 320px){
     .contenedor {
         width: 320px;
+        height: 1220px;
     }
-
+    .central__nav{
+        display: flex;
+        justify-content: center;
+    }
     .logo {
         display: none;
     }
@@ -781,8 +785,8 @@ hr {
     }
 
     .central {
-        width: 320px;
-        height:800px;
+        width: 380px;
+        height:1200px;
     }
 
     .menu__items {
@@ -858,7 +862,7 @@ hr {
     }
 
     .footer {
-        width: 320px
+        width:370px;
     }
 
 }

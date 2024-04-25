@@ -761,12 +761,12 @@ hr {
         gap: 20px 0;
     }
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 320px) {
     .logo {
         display: none;
     }
     .menu{
-        width: 300px;
+        width: 320px;
     }
     .menu__items{
         display: flex;
@@ -779,7 +779,7 @@ hr {
     }
 
     .central {
-        width: 300px;
+        width: 320px;
         height: 820px;
     }
 
@@ -790,7 +790,7 @@ hr {
     .presentacion {
         display: flex;
         flex-direction: column;
-        width: 360px;
+        width: 320px;
     }
 
     .sobremi {
@@ -842,10 +842,10 @@ hr {
         text-align: center;
     }
     .ubicacion iframe{
-        width: 360px;
+        width: 320px;
     }
     .footer{
-        width: 340px
+        width: 320px
     }
 
 }

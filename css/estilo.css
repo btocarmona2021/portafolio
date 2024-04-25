@@ -695,7 +695,7 @@ hr {
     height: 128px;
 }
 
-@media screen and (max-width: 1280px ) and (min-width: 500px) {
+@media screen and (max-width: 1280px ) and (min-width: 720px) {
     .contenedor {
         max-width: 700px;
         height: 1220px;
@@ -729,11 +729,119 @@ hr {
     }
 
     .presentacion {
+        max-width:700px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sobremi {
+        width: 92%;
+    }
+
+    .skills__contenedor {
+        display: flex;
+        padding: 4px;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .skills__item {
+        width: 70px;
+    }
+
+    .galeria {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .item__encabezado {
+        justify-content: center;
+    }
+
+    .academic__courses {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .experiencia {
+        height: 1000px;
+    }
+
+    .experiencia__info {
+        height: 1200px;
+    }
+
+    .experiencia__info-container {
+        height: 700px;
+    }
+
+    .experiencia__box {
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .formcontacto__contacto {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .formcontacto {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .ubicacion iframe {
+        max-width: 700px;
+    }
+
+    .footer {
+        width: 700px;
+    }
+
+}
+@media screen and (max-width: 719px ) and (min-width: 400px) {
+    .contenedor {
+        max-width: 360px;
+        height: 1220px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .menu {
+        max-width: 360px;
+    }
+
+    .menu__items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .presentacion .imagen__flecha, .contactame {
+        display: none;
+    }
+
+    .central {
+        max-width: 360px;
+        height: 1150px;
+    }
+
+    .menu__items {
+        padding: 12px;
+    }
+
+    .presentacion {
         display: flex;
         flex-direction: column;
     }
     .presentacion {
-        max-width:700px;
+        max-width:360px;
 
     }
 
@@ -776,7 +884,7 @@ hr {
     }
 
     .experiencia__info-container {
-        height: 400px;
+        height: 360px;
     }
 
     .experiencia__box {
@@ -798,11 +906,11 @@ hr {
     }
 
     .ubicacion iframe {
-        max-width: 700px;
+        max-width: 360px;
     }
 
     .footer {
-        width: 700px;
+        width: 360px;
     }
 
 }

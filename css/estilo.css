@@ -759,7 +759,7 @@ hr {
 }*/
 @media screen and (max-width: 428px ) and (min-width: 320px){
     .contenedor {
-        width: 380px;
+        width: 320px;
     }
 
     .logo {
@@ -767,7 +767,7 @@ hr {
     }
 
     .menu {
-        width: 380px;
+        width: 320px;
     }
 
     .menu__items {
@@ -781,7 +781,7 @@ hr {
     }
 
     .central {
-        width: 380px;
+        width: 320px;
         height:800px;
     }
 

@@ -93,7 +93,8 @@
                 <div class="logo__img">
                     <img src="./img/ac.jpg" alt="logo" id="logo">
                 </div>
-                <p class="logo__titulo">AC Computación</p></div>
+                <p class="logo__titulo">AC Computación</p>
+            </div>
             <div class="menu">
                 <ul class="menu__items">
                     <li class="item"><a href=""><i class="fa-solid fa-user-tie"></i>Sobre mí</a></li>
@@ -109,6 +110,7 @@
         <section class="presentacion">
             <img class="imagen__flecha" src="./img/flecha.webp" alt="">
             <p class="contactame">Contacto</p>
+            <img class="imagen-perfil" src="./img/yo.jpg" alt="">
             <div>
                 <h1>Hola mi nombre es Alberto Carmona , Realizo aplicaciones web, utilizando como backend Java
                     y el framework Spring Boot</h1>
@@ -123,7 +125,6 @@
                     adquirir conocimientos para crecer en el mundo de la
                     programación</p>
             </div>
-            <img class="imagen-perfil" src="./img/yo.jpg" alt="">
         </section>
         <section class="sobremi">
             <h1>Sobre mí</h1>
@@ -315,11 +316,20 @@
                         <h3 class="experiencia__text">Challenge Oracle </h3>
                         <div class="experiencia__description">
                             <!-- Pon el enlace del proyecto en Github o GithubPages -->
-                            <span class="experiencia__repo"><a
-                                    href="https://github.com/btocarmona2021/mentalista" target="_blank"><button
-                                    class="experiencia__botao--repo"><img src="./img/github-wordmark.svg" alt="">Repositório</button></a></span>
-                            <span class="experiencia__demo"><a href="https://btocarmona2021.github.io/mentalista/" target="_blank"><button
-                                    class="experiencia__botao--demo"><img src="./img/eyes.svg" alt="">Ver demo</button></a></span>
+                            <span class="experiencia__repo">
+                                <a href="https://github.com/btocarmona2021/mentalista" target="_blank">
+                                    <button class="experiencia__botao--repo">
+                                        <img src="./img/github-wordmark.svg" alt="">Repositório
+                                    </button>
+                                </a>
+                            </span>
+                            <span class="experiencia__demo">
+                                <a href="https://btocarmona2021.github.io/mentalista/" target="_blank">
+                                    <button class="experiencia__botao--demo">
+                                        <img src="./img/eyes.svg" alt="">Ver demo
+                                    </button>
+                                </a>
+                            </span>
                         </div>
                     </div>
                 </div>
@@ -331,46 +341,20 @@
                         <h3 class="experiencia__text">Challenge Oracle </h3>
                         <div class="experiencia__description">
                             <!-- Pon el enlace del proyecto en Github o GithubPages -->
-                            <span class="experiencia__repo"><a
-                                    href="https://github.com/btocarmona2021/conversor" target="_blank"><button
-                                    class="experiencia__botao--repo"><img src="./img/github-wordmark.svg" alt=""> Repositório</button></a></span>
-                            <span class="experiencia__demo"><a href="https://btocarmona2021.github.io/conversor/" target="_blank"><button
-                                    class="experiencia__botao--demo"><img src="./img/eyes.svg" alt="">Ver demo</button></a></span>
+                            <span class="experiencia__repo">
+                                <a href="https://github.com/btocarmona2021/conversor" target="_blank"><button
+                                        class="experiencia__botao--repo"><img src="./img/github-wordmark.svg" alt="">Repositório</button>
+                                </a>
+                            </span>
+                            <span class="experiencia__demo">
+                                <a href="https://btocarmona2021.github.io/conversor/" target="_blank">
+                                    <button class="experiencia__botao--demo"><img src="./img/eyes.svg" alt="">Ver demo
+                                    </button>
+                                </a>
+                            </span>
                         </div>
                     </div>
                 </div>
-                <!-- <div class="experiencia__info">
-                     &lt;!&ndash; Pon el logotipo/captura de pantalla de tu proyecto &ndash;&gt;
-                     <img class="experiencia__img" src="assets\forca_print.png" alt="">
-                     <div class="experiencia__info-container">
-                         <h2 class="experiencia__title">Juego creado con HTML y JavaScript</h2>
-                         <h3 class="experiencia__text">Challenge Oracle </h3>
-                         <div class="experiencia__description">
-                             &lt;!&ndash; Pon el enlace del proyecto en Github o GithubPages &ndash;&gt;
-                             <span class="experiencia__repo"><a
-                                     href="https://github.com/alura-challenges/challenge-one-juego-ahorcado"><button
-                                     class="experiencia__botao&#45;&#45;repo">Repositório</button></a></span>
-                             <span class="experiencia__demo"><a href=""><button
-                                     class="experiencia__botao&#45;&#45;demo">Ver demo</button></a></span>
-                         </div>
-                     </div>
-                 </div>
-                 <div class="experiencia__info">
-                     &lt;!&ndash; Pon el logotipo/captura de pantalla de tu proyecto &ndash;&gt;
-                     <img class="experiencia__img" src="assets\forca_print.png" alt="">
-                     <div class="experiencia__info-container">
-                         <h2 class="experiencia__title">Juego creado con HTML y JavaScript</h2>
-                         <h3 class="experiencia__text">Challenge Oracle </h3>
-                         <div class="experiencia__description">
-                             &lt;!&ndash; Pon el enlace del proyecto en Github o GithubPages &ndash;&gt;
-                             <span class="experiencia__repo"><a
-                                     href="https://github.com/alura-challenges/challenge-one-juego-ahorcado"><button
-                                     class="experiencia__botao&#45;&#45;repo">Repositório</button></a></span>
-                             <span class="experiencia__demo"><a href=""><button
-                                     class="experiencia__botao&#45;&#45;demo">Ver demo</button></a></span>
-                         </div>
-                     </div>
-                 </div>-->
 
             </div>
         </section>
@@ -393,21 +377,29 @@
                         <label for="asunto"></label>
                         <input id="asunto" type="text" name="asunto" placeholder="Assunto">
                         <label for="mensagem"></label>
-                        <textarea class="formcontacto__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje"></textarea>
+                        <textarea class="formcontacto__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje"
+                        ></textarea>
                         <button type="submit" class="formcontacto__boton">Enviar mensaje</button>
                     </form>
                 </div>
                 <div class="ubicacion">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2546.6337645888243!2d-64.95474168892008!3d-40.734638706430886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95fa37279ef07bc1%3A0x46ac59d53faf0f48!2sIslas%20Malvinas%201517%2C%20San%20Antonio%20Oeste%2C%20R%C3%ADo%20Negro!5e1!3m2!1ses!2sar!4v1713841541768!5m2!1ses!2sar" width="460" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2546.6337645888243!2d-64.95474168892008!3d-40.
+                    734638706430886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95fa37279ef07bc1%3A0x46ac59d53faf0f48!2sIslas
+                    %20Malvinas%201517%2C%20San%20Antonio%20Oeste%2C%20R%C3%ADo%20Negro!5e1!3m2!1ses!2sar!4v1713841541768!5m2!1ses!2s
+                    ar" width="460" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                    ></iframe>
                 </div>
             </div>
         </section>
 
         <!-- Sección de Footer -->
         <section class="footer">
-            <div class="footer__rodape">
-                <p>Desarrollado por Alberto Carmona</p>
-                <p>2024</p>
+            <div class="footer__desarrollo">
+                    <p>Desarrollado por Alberto Carmona</p>
+                    <p>2024</p>
+            </div>
+            <div class="footer__img">
+                <img src="./img/ac.jpg" alt="">
             </div>
         </section>
     </main>

@@ -712,7 +712,7 @@ hr {
     height: 128px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 720px) {
     .logo {
         display: none;
     }
@@ -761,12 +761,12 @@ hr {
         gap: 20px 0;
     }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 360px) {
     .logo {
         display: none;
     }
     .menu{
-        width: 400px;
+        width: 360px;
     }
     .menu__items{
         display: flex;
@@ -779,7 +779,7 @@ hr {
     }
 
     .central {
-        width: 380px;
+        width: 360px;
         height: 820px;
     }
 
@@ -790,7 +790,7 @@ hr {
     .presentacion {
         display: flex;
         flex-direction: column;
-        width: 380px;
+        width: 360px;
     }
 
     .sobremi {
@@ -842,10 +842,10 @@ hr {
         text-align: center;
     }
     .ubicacion iframe{
-        width: 380px;
+        width: 360px;
     }
     .footer{
-        width: 350px
+        width: 340px
     }
 
 }

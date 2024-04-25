@@ -761,7 +761,7 @@ hr {
         gap: 20px 0;
     }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
     .logo {
         display: none;
     }

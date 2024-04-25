@@ -16,7 +16,7 @@ p {
 .contenedor {
     display: flex;
     align-items: center;
-    min-width: 1080px;
+    width: 1080px;
     height: 800px;
     background-color: #07070F;
     gap: 10px;
@@ -189,12 +189,7 @@ hr {
     fill: wheat; /* Cambia este color al que desees */
 }
 
-.central__nav {
-    min-width: 800px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+
 
 .menu__items {
     list-style: none;
@@ -570,7 +565,7 @@ hr {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 50px 120px;
-    padding: 15px;
+    padding: 5px;
 }
 
 .footer__desarrollo, .footer__img {
@@ -712,6 +707,7 @@ hr {
     height: 128px;
 }
 
+/*
 @media screen and (max-width: 720px) {
     .logo {
         display: none;
@@ -760,15 +756,21 @@ hr {
     flex-direction: column;
         gap: 20px 0;
     }
-}
-@media screen and (max-width: 320px) {
+}*/
+@media screen and (max-width: 428px) {
+    .contenedor {
+        width: 410px;
+    }
+
     .logo {
         display: none;
     }
-    .menu{
-        width: 320px;
+
+    .menu {
+        width: 380px;
     }
-    .menu__items{
+
+    .menu__items {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -779,8 +781,8 @@ hr {
     }
 
     .central {
-        width: 320px;
-        height: 820px;
+        width: 380px;
+        height: 1200px;
     }
 
     .menu__items {
@@ -796,7 +798,8 @@ hr {
     .sobremi {
         width: 92%;
     }
-    .skills__contenedor{
+
+    .skills__contenedor {
         display: flex;
         padding: 4px;
         flex-wrap: wrap;
@@ -821,31 +824,41 @@ hr {
         flex-wrap: wrap;
         gap: 10px;
     }
-    .experiencia{
+
+    .experiencia {
         height: 1000px;
     }
-    .experiencia__info{
-     height: 1200px;
+
+    .experiencia__info {
+        height: 1200px;
     }
-    .experiencia__info-container{
+
+    .experiencia__info-container {
         height: 400px;
     }
-    .experiencia__box{
+
+    .experiencia__box {
         height: 900px;
         display: flex;
         flex-direction: column;
         gap: 20px;
     }
-    .formcontacto{
-        height: 1200px;
+.formcontacto__contacto{
+    display: flex;
+    flex-direction: column;
+}
+    .formcontacto {
         display: flex;
+        flex-direction: column;
         text-align: center;
     }
-    .ubicacion iframe{
-        width: 320px;
+
+    .ubicacion iframe {
+        width: 380px;
     }
-    .footer{
-        width: 320px
+
+    .footer {
+        width: 380px
     }
 
 }

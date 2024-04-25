@@ -766,7 +766,7 @@ hr {
         display: none;
     }
     .menu{
-        width: 360px;
+        width: 300px;
     }
     .menu__items{
         display: flex;
@@ -779,7 +779,7 @@ hr {
     }
 
     .central {
-        width: 360px;
+        width: 300px;
         height: 820px;
     }
 

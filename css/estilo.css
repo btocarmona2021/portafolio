@@ -695,7 +695,7 @@ hr {
     height: 128px;
 }
 
-@media screen and (max-width: 1280px ) and (min-width: 720px) {
+@media screen and (max-width: 1440px ) and (min-width: 720px) {
     .contenedor {
         max-width: 700px;
         height: 1220px;

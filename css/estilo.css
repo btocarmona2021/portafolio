@@ -765,21 +765,21 @@ hr {
     }
 
     .experiencia {
+        display: flex;
         height: 1000px;
     }
 
     .experiencia__info {
-        height: 1200px;
+        height: 400px;
     }
 
     .experiencia__info-container {
-        height: 1080px;
+        height: 400px;
     }
 
     .experiencia__box {
-        height: 900px;
         display: flex;
-        flex-direction: column;
+        height: 420px;
         gap: 20px;
     }
 

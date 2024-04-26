@@ -695,7 +695,7 @@ hr {
     height: 128px;
 }
 
-@media screen and (max-width: 1280px ) and (min-width: 100px) {
+@media screen and (max-width: 1280px ) and (min-width: 720px) {
     .contenedor {
         max-width: 1080px;
         height: 1220px;
@@ -803,8 +803,7 @@ hr {
     }
 
 }
-/*
-@media screen and (max-width: 719px ) and (min-width: 400px) {
+@media screen and (max-width: 719px ) and (min-width: 320px) {
     .contenedor {
         max-width: 360px;
         height: 1220px;
@@ -914,4 +913,4 @@ hr {
         width: 360px;
     }
 
-}*/
+}

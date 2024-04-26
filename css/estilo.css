@@ -33,6 +33,7 @@ p {
     gap: 10px;
     background-color: #37376C;
     padding: 15px;
+    transition: 0.5s;
 }
 .central__nav{
 display: flex;
@@ -53,7 +54,7 @@ display: flex;
 .contenedor__aside.active {
     position: fixed;
     left: 0;
-    min-width: 260px;
+    max-width: 260px;
     height: 760px;
     padding: 15px;
     border-radius: 10px;
@@ -139,8 +140,8 @@ display: flex;
 .central.left {
     position: fixed;
     transform: translate(290px);
-    max-width: 600px;
-    transition: 0.3s;
+    max-width: 950px;
+    transition: 0.5s;
 }
 
 .presentacion {

@@ -697,7 +697,7 @@ hr {
 
 @media screen and (max-width: 1280px ) and (min-width: 720px) {
     .contenedor {
-        max-width: 1080px;
+        max-width: 700px;
         height: 1220px;
     }
 
@@ -706,7 +706,7 @@ hr {
     }
 
     .menu {
-        max-width: 1080px;
+        max-width: 700px;
     }
 
     .menu__items {
@@ -720,7 +720,7 @@ hr {
     }
 
     .central {
-        max-width: 1080px;
+        max-width: 670px;
         height: 1150px;
     }
 
@@ -729,7 +729,7 @@ hr {
     }
 
     .presentacion {
-        max-width:1080px;
+        max-width:670px;
         display: flex;
         flex-direction: column;
     }
@@ -795,17 +795,17 @@ hr {
     }
 
     .ubicacion iframe {
-        max-width: 1080px;
+        max-width: 700px;
     }
 
     .footer {
-        width: 1080px;
+        width: 700px;
     }
 
 }
 @media screen and (max-width: 719px ) and (min-width: 320px) {
     .contenedor {
-        max-width: 360px;
+        max-width: 700px;
         height: 1220px;
     }
 
@@ -814,7 +814,7 @@ hr {
     }
 
     .menu {
-        max-width: 360px;
+        max-width: 310px;
     }
 
     .menu__items {
@@ -828,7 +828,7 @@ hr {
     }
 
     .central {
-        max-width: 360px;
+        max-width: 310px;
         height: 1150px;
     }
 
@@ -841,7 +841,7 @@ hr {
         flex-direction: column;
     }
     .presentacion {
-        max-width:360px;
+        max-width:310px;
 
     }
 
@@ -884,7 +884,7 @@ hr {
     }
 
     .experiencia__info-container {
-        height: 360px;
+        height: 340px;
     }
 
     .experiencia__box {
@@ -906,11 +906,11 @@ hr {
     }
 
     .ubicacion iframe {
-        max-width: 360px;
+        max-width: 340px;
     }
 
     .footer {
-        width: 360px;
+        width: 340px;
     }
 
 }

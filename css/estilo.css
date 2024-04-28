@@ -305,8 +305,8 @@ hr {
 .sobremi img{
     position: absolute;
     top: 0;
-    width: 180px;
-    height: 180px;
+    width: 100px;
+    height: 100px;
     opacity: 0.54;
 }
 
